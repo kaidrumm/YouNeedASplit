@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		F18EE54824774577002C9042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EE54724774577002C9042 /* AppDelegate.swift */; };
 		F18EE54A24774577002C9042 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EE54924774577002C9042 /* SceneDelegate.swift */; };
-		F18EE54C24774577002C9042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EE54B24774577002C9042 /* ViewController.swift */; };
+		F18EE54C24774577002C9042 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EE54B24774577002C9042 /* LoginViewController.swift */; };
 		F18EE54F24774577002C9042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18EE54D24774577002C9042 /* Main.storyboard */; };
 		F18EE5512477457B002C9042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18EE5502477457B002C9042 /* Assets.xcassets */; };
 		F18EE5542477457B002C9042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18EE5522477457B002C9042 /* LaunchScreen.storyboard */; };
+		F1BC9E0824804ECC00E3985F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9E0724804ECC00E3985F /* UserInfo.swift */; };
+		F1BC9E0A248054C800E3985F /* SplitwiseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9E09248054C800E3985F /* SplitwiseClient.swift */; };
+		F1BC9E0C24805A7B00E3985F /* YnabClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9E0B24805A7B00E3985F /* YnabClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F18EE54424774577002C9042 /* YouNeedASplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouNeedASplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18EE54724774577002C9042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F18EE54924774577002C9042 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F18EE54B24774577002C9042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18EE54B24774577002C9042 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F18EE54E24774577002C9042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F18EE5502477457B002C9042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18EE5532477457B002C9042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18EE5552477457B002C9042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BC9E0724804ECC00E3985F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		F1BC9E09248054C800E3985F /* SplitwiseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitwiseClient.swift; sourceTree = "<group>"; };
+		F1BC9E0B24805A7B00E3985F /* YnabClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YnabClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				F18EE54724774577002C9042 /* AppDelegate.swift */,
 				F18EE54924774577002C9042 /* SceneDelegate.swift */,
-				F18EE54B24774577002C9042 /* ViewController.swift */,
+				F18EE54B24774577002C9042 /* LoginViewController.swift */,
 				F18EE54D24774577002C9042 /* Main.storyboard */,
 				F18EE5502477457B002C9042 /* Assets.xcassets */,
 				F18EE5522477457B002C9042 /* LaunchScreen.storyboard */,
 				F18EE5552477457B002C9042 /* Info.plist */,
+				F1BC9E0724804ECC00E3985F /* UserInfo.swift */,
+				F1BC9E09248054C800E3985F /* SplitwiseClient.swift */,
+				F1BC9E0B24805A7B00E3985F /* YnabClient.swift */,
 			);
 			path = YouNeedASplit;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18EE54C24774577002C9042 /* ViewController.swift in Sources */,
+				F1BC9E0824804ECC00E3985F /* UserInfo.swift in Sources */,
+				F18EE54C24774577002C9042 /* LoginViewController.swift in Sources */,
+				F1BC9E0C24805A7B00E3985F /* YnabClient.swift in Sources */,
+				F1BC9E0A248054C800E3985F /* SplitwiseClient.swift in Sources */,
 				F18EE54824774577002C9042 /* AppDelegate.swift in Sources */,
 				F18EE54A24774577002C9042 /* SceneDelegate.swift in Sources */,
 			);
